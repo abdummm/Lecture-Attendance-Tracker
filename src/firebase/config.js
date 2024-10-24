@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 // import { getAnalytics } from "firebase/analytics"; // Uncomment if analytics is needed
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAdQhQbf7ej1BKcQYnfIit4EyFyYexPBY4",
+  apiKey: "API_KEY_SHOULD_BE_HERE",
   authDomain: "classroom-sign-in.firebaseapp.com",
   projectId: "classroom-sign-in",
   storageBucket: "classroom-sign-in.appspot.com",
