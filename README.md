@@ -39,8 +39,16 @@ The website can be accessed from this link: [classroom-sign-in.web.app](https://
 Feel free to fork this repository and submit a pull request. Contributions are welcome to improve features, documentation, and performance
 
 ## Here are some pictures showcasing the current design of the website.
-
-![Log-in/Sign-Up](https://imgur.com/ffTZTTp)
+### Log-in/Sign-up 
+![Log-in/Sign-Up](https://imgur.com/ffTZTTp.jpg)
+### Qr code showcase
+![Log-in/Sign-Up](https://imgur.com/H9EAq9Q.jpg)
+### Students' attendance data shown to instructos
+![Log-in/Sign-Up](https://imgur.com/7fq2n6t.jpg)
+### Manage classes as a student
+![Log-in/Sign-Up](https://imgur.com/C2zw8MY.jpg)
+### Create a class as an instructor
+![Log-in/Sign-Up](https://imgur.com/gEjFRTZ.jpg)
 
 
 
