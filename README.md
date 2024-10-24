@@ -19,11 +19,6 @@ The **Lecture Attendance Tracker** is a web-based application designed to help p
 - **Database**: The backend of this poject was a Firebase's NoSQL database for real-time data synchronization and efficient, scalable storage without server management.
 - **Cloud Platform**: Hosted on Firebase for scalability and reliability
 
-## Installation
-
-### Prerequisites
-- Node.js v14+ installed
-
 ### How to Access
 The website can be accessed from this link: [classroom-sign-in.web.app](https://classroom-sign-in.web.app/login)
 
