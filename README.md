@@ -20,7 +20,7 @@ The **Lecture Attendance Tracker** is a web-based application designed to help p
 - **Cloud Platform**: Hosted on Firebase for scalability and reliability
 
 ### How to Access
-The website can be accessed from this link: [classroom-sign-in.web.app](https://classroom-sign-in.web.app/login)
+The website can be accessed from this link: [classroom-sign-in.web.app](https://classroom-sign-in.web.app)
 
 ## Usage
 
@@ -37,3 +37,11 @@ The website can be accessed from this link: [classroom-sign-in.web.app](https://
 ## Contribution
 
 Feel free to fork this repository and submit a pull request. Contributions are welcome to improve features, documentation, and performance
+
+## Here are some pictures showcasing the current design of the website.
+
+![Log-in/Sign-Up](https://imgur.com/ffTZTTp)
+
+
+
+
