@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Lecture Attendance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The **Lecture Attendance Tracker** is a web-based application designed to help professors and instructors track students' attendance during lectures. Built using React, this application automates the process of collecting and managing attendance records, making it easier for academic staff to monitor and analyze students' participation. 
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Automated Attendance Recording**: Allows students to check-in during lectures by scanning a qr code that a professer will show.
+- **Dynamic QR Code**: The app dynamically updates the QR code every 2 seconds to prevent students from taking a photo and sharing it with those not physically present, ensuring only attendees in the classroom can check in.
+- **Dashboard for Professors**: Provides a user-friendly dashboard where instructors can view attendance data, generate reports, and track participation trends. The instructor can also view student specific data.
+- **Data Export**: Attendance data can be exported as CSV or Excel files for further analysis or record-keeping.
+- **Secure Authentication**: Students and professors authenticate via secure login that we built to ensure data privacy.
+- **Mobile Friendly**: Designed to be responsive and accessible from any device, including smartphones and tablets for students and desktops for instructors.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Database**: The backend of this poject was a Firebase's NoSQL database for real-time data synchronization and efficient, scalable storage without server management.
+- **Cloud Platform**: Hosted on Firebase for scalability and reliability
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js v14+ installed
 
-### `npm run build`
+### How to Access
+The website can be accessed from this link: [classroom-sign-in.web.app](https://classroom-sign-in.web.app/login)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Professor Dashboard**: Professors can sign up or log in and create lecture sessions. Each session generates a unique QR code or link that students can use to mark their presence.
+2. **Student Check-in**: Students can sign up or log in with their credentials, enter the session code, and mark their attendance.
+3. **Attendance Reports**: Professors can view and download reports for each lecture, filter by date, and track students' attendance over time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Improvements
 
-### `npm run eject`
+- Integration with University Systems (LMS)
+- An AI-based attendance anomaly detection system uses geolocation and behavioral analytics to ensure students are physically present in the classroom
+- Enhanced analytics for student participation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribution
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to fork this repository and submit a pull request. Contributions are welcome to improve features, documentation, and performance
